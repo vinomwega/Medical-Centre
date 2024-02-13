@@ -12,7 +12,7 @@
         <p>Affordable, Professional & Innovative Health Care</p>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="home.html">Home</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="service.html">Services</a></li>
                 <li><a href="#">Doctors</a></li>
@@ -47,37 +47,69 @@
     </div>
 
     <div id="updates">
-        
-        <div id="updates">
+        <div id="news">
             <h2>News and Events</h2>
             <ul id="newsList">
                 <li>News 1</li>
                 <li>News 2</li>
                 <li>News 3</li>
             </ul>
-            
-            <button onclick="addNews()">Add News</button>
-            <button onclick="removeNews()">Remove News</button>
         </div>
 
-     <!--   script to add and remove news   
-        <script>
-            function addNews() {
-                var newsList = document.getElementById("newsList");
-                var newNews = document.createElement("li");
-                newNews.textContent = "New News";
-                newsList.appendChild(newNews);
-            }
+        <div id="appointments">
+            <h2>Book an Appointment</h2>
+            <form id="appointment-form">
+            <label for="service">Select Service:</label>
+            <select id="service" name="service">
+                <option value="consultation">Consultation</option>
+                <option value="lab">Ultrasound</option>
+                <option value="Orthopedic">Orthopedic </option>
+                <option value="ENT">ENT</option>
+                <option value="Physiotherapy">Physiotherapy</option>
+                <option value="MinorSurgeries">Minor Surgeries</option>
+                <!-- Add other service options here -->
+            </select>
+            <label for="date">Select Date:</label>
+            <input type="date" id="date" name="date" required>
+            <label for="time">Select Time:</label>
+            <input type="time" id="time" name="time" required>
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit">Book Appointment</button>
+            </form>
+        </div>
 
-            function removeNews() {
-                var newsList = document.getElementById("newsList");
-                var lastNews = newsList.lastElementChild;
-                if (lastNews) {
-                    newsList.removeChild(lastNews);
-                }
-            }
-        </script>-->
     </div>
+    
+    <footer>
+        <h4>Contact Us</h4>
+        <p>Phone: 0737535147/ 0727279784</p>
+<footer>
+    <h4>Contact Us</h4>
+    <p>Phone: 0737535147/ 0727279784</p>
+    <p>Email: </p>
+    <p>Address: Gitaru, Kabete, Kenya</p>
 
+    <!-- Add this code before the closing </footer> tag -->
+    <div id="social-media-icons">
+        <a href="https://www.instagram.com/Muthure_Medicalcentre" target="_blank">
+            <i class="fab fa-instagram">Muthure Medicalcentre</i>
+        </a>
+        <a href="https://www.facebook.com/Muthure_Medical_Centre" target="_blank">
+            <i class="fab fa-facebook">Muthure Medical Centre</i>
+        </a>
+    </div>
+    <!-- Add this code before the closing </body> tag -->
+        <div id="whatsapp-popup">
+            <a href="https://wa.me/0737535147" target="_blank">
+             <img src="./assets/WhatsApp.png" alt="WhatsApp Icon">
+            </a>
+        </div>
+
+    <p>&copy; 2021 Muthure Medical Centre</p>
+</footer>
+        
 </body>
 </html>
