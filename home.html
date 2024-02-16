@@ -3,45 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <title>Hospital System</title>
 </head>
 <body>
-    <header>
-        <h1>Muthure Medical Centre</h1>
+    <div class="NPX">
+        <h2>Muthure Medical Centre</h2>
         <p>Affordable, Professional & Innovative Health Care</p>
-        <nav>
-            <ul>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="service.html">Services</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header> 
+     <!--Your header content goes here -->
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="service.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    </div>
 
-    <div id="Services">
+    <div class="Services">
         <h2>Our services</h2>
         <p>Our services are affordable and professional. We offer a wide range of services including:</p>
         <ul class="Serve">
-            <li><i class="fas fa-stethoscope"></i> Ultrasound</li>
-            <p>We have antenatol clinc and the MOH recommends for at lest 2 scans during the pregnancy period. This has helped us to manage our ANC Mothers better and give fast and accurate management incase of an complication.</p>
-
-            <li><i class="fas fa-home"></i> Homebase Care</li>
-            <p>With covid 19 came a dire need and opportuanity for patient to be managed at home. home care also make it convinient for us to reach patients with chronic ailments and thode with needing palliatve care</p>
-            
-            <li><i class="fas fa-video"></i> Telemedicine</li>
-            <p>Our ultrasound, a product of Ilara Health, uses a technology where any healthcare provider can perform the ultrasound under the guidence of a lifted sonographer who the generates a detailed report for the patient.
-                This has proved to be very effective because it eliminates the need for a sonographer at the facility and also patients can be attende to anywhere as the device is mobile and easily portable.
-            </p>
-            
-            <li><i class="fas fa-users"></i> E-clinic Support Group</li>
-            <p>We have aninteractive fast growing online platform where we educate the the community about diseases, health education with enphasis on prevention and wellness checkups so as to detect disease such as HTN/DM and cancer in early stages.</p>
-
-            <li><i class="fas fa-user-friends"></i> Family Clinic</li>
-            <p>This department includes well baby visits and immunization, family planing, antinatol and postnatol care. Our trained, qualified licienced staff take care of mothers and babies offering holistic care from immunization, growth monitoring, nutritional assesment and advice as well walking the journey with the mothers who need support and encouragement.</p>
-            
+            <li class="service">
+                <div class="service-content">
+                    <i class="fas fa-stethoscope"></i>
+                    <p>Ultrasound</p>
+                    <p>We have antenatal clinic and the MOH recommends at least 2 scans during the pregnancy period. This has helped us to manage our ANC Mothers better and give fast and accurate management in case of any complications.</p>
+                </div>
+            </li>
+            <li class="service">
+                <div class="service-content">
+                    <i class="fas fa-home"></i>
+                    <p>Homebase Care</p>
+                    <p>With COVID-19 came a dire need and opportunity for patients to be managed at home. Home care also makes it convenient for us to reach patients with chronic ailments and those needing palliative care.</p>
+                </div>
+            </li>
+            <li class="service">
+                <div class="service-content">
+                    <i class="fas fa-video"></i>
+                    <p>Telemedicine</p>
+                    <p>Our ultrasound, a product of Ilara Health, uses technology where any healthcare provider can perform the ultrasound under the guidance of a qualified sonographer who then generates a detailed report for the patient. This has proved to be very effective as it eliminates the need for a sonographer at the facility and allows patients to be attended to anywhere as the device is mobile and easily portable.</p>
+                </div>
+            </li>
+            <li class="service">
+                <div class="service-content">
+                    <i class="fas fa-users"></i>
+                    <p>E-clinic Support Group</p>
+                    <p>We have an interactive, fast-growing online platform where we educate the community about diseases, health education emphasizing prevention and wellness checkups to detect diseases such as HTN/DM and cancer in early stages.</p>
+                </div>
+            </li>
+            <li class="service">
+                <div class="service-content">
+                    <i class="fas fa-user-friends"></i>
+                    <p>Family Clinic</p>
+                    <p>This department includes well-baby visits and immunizations, family planning, antenatal and postnatal care. Our trained, qualified licensed staff take care of mothers and babies, offering holistic care from immunization, growth monitoring, nutritional assessment, and advice as well as walking the journey with the mothers who need support and encouragement.</p>
+                </div>
+            </li>
         </ul>
+        
         <button><a href="service.html">more services</a></button>
     </div>
 
