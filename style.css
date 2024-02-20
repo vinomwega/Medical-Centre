@@ -7,9 +7,12 @@ body {
 .NPX {
     background-color: #066423; /* Set background color */
     width: 100%; /* Ensure the header covers the entire width of the screen */
-    position: fixed; /* Fix the header at the top of the viewport */
+    position: sticky; /* Fix the header at the top of the viewport until a certain point */
     top: 0; /* Align the header to the top of the viewport */
     z-index: 1000; /* Ensure the header is above other content */
+    text-align: center; /* Center-align header content */
+    padding: 10px 0; /* Add padding to the top and bottom of the header */
+
 }
 
 nav ul {
@@ -21,6 +24,7 @@ nav ul {
 
 nav li {
     margin-right: 10px; /* Add some spacing between menu items */
+    justify-content: center; /* Center-align navigation links */
 }
 
 nav li:last-child {
@@ -39,8 +43,9 @@ nav a:hover {
     background-color: #A1DD06; /* Change background color on hover */
 }
 
+
 .Services{
-    padding-top: 100px; /* Add padding to the top of the Services section to prevent overlap with the header */
+    padding-top: auto; /* Add padding to the top of the Services section to prevent overlap with the header */
 }
 
 .Serve {
@@ -70,6 +75,168 @@ nav a:hover {
 .service-content i {
     margin-bottom: 10px;
 }
+/*Wh chose us styling*/
+#US {
+    display: flex; /* Display children side by side */
+    justify-content: space-around; /* Distribute space evenly between children */
+    align-items: center; /* Center align vertically */
+}
+
+#why, #QST {
+    flex: 1; /* Each section takes equal space */
+    margin: 20px; /* Add some margin for spacing */
+}
+
+#why {
+    background-color: #f0f0f0; /* Background color */
+    padding: 20px; /* Add padding */
+    border-radius: 10px; /* Add rounded corners */
+}
+
+#why h2 {
+    font-size: 1.5em; /* Adjust heading size */
+    margin-bottom: 10px; /* Add spacing below heading */
+}
+
+#why ul {
+    list-style-type: none;
+    padding-left: 20px; /* Indent list items */
+}
+
+#QST {
+    background-color: #e0e0e0; /* Background color */
+    padding: 20px; /* Add padding */
+    border-radius: 10px; /* Add rounded corners */
+}
+
+#QST h3 {
+    font-size: 1.5em; /* Adjust heading size */
+    margin-bottom: 10px; /* Add spacing below heading */
+}
+
+#QST p {
+    line-height: 1.5; /* Adjust line height */
+    margin-bottom: 10px; /* Add spacing below paragraphs */
+}
+
+button {
+    background-color: #A1DD06; /* Button background color */
+    color: #fff; /* Button text color */
+    padding: 10px 20px; /* Add padding */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add rounded corners */
+    cursor: pointer; /* Add pointer cursor */
+    text-decoration: none; /* Remove default underline */
+}
+/*Styling Open hrs*/
+#openHrs {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse; /* Collapse border spacing */
+    width: 100vw; /* Set table width to viewport width */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+#openHrs table {
+    border: 1px solid #ddd; /* Add border to table */
+    width: 100%; /* Set table width to fill container */
+}
+
+#openHrs th,
+#openHrs td {
+    border: 1px solid #ddd; /* Add border to table cells */
+    padding: 8px; /* Add padding to table cells */
+    text-align: left; /* Align text to left */
+}
+
+#openHrs th {
+    background-color: #f2f2f2; /* Add background color to table header */
+    color: #333; /* Set text color for table header */
+}
+
+#openHrs tr:nth-child(even) {
+    background-color: #f2f2f2; /* Add background color to even rows */
+}
+/*Styling updates*/
+#updates {
+    display: flex; /* Use flexbox for layout */
+}
+
+#news,
+#appointments {
+    flex: 1; /* Each section takes equal space */
+    margin-right: 20px; /* Add spacing between sections */
+}
+
+#news {
+    background-color: #f0f0f0; /* Background color for news section */
+    padding: 20px; /* Add padding */
+    border-radius: 5px; /* Add rounded corners */
+}
+
+#appointments {
+    background-color: #e0e0e0; /* Background color for appointments section */
+    padding: 20px; /* Add padding */
+    border-radius: 5px; /* Add rounded corners */
+}
+
+#appointments form {
+    display: grid; /* Use CSS Grid for form layout */
+    grid-template-columns: repeat(2, 1fr); /* Two columns layout */
+    grid-gap: 10px; /* Add gap between grid items */
+}
+
+#appointments label {
+    grid-column: 1 / 2; /* Span label across the first column */
+}
+
+#appointments input,
+#appointments select {
+    grid-column: 2 / 3; /* Span input/select across the second column */
+    width: 100%; /* Make inputs/selects fill the column */
+}
+img {
+    max-width: 8%; /* Ensure images don't exceed their container width */
+    height: auto; /* Maintain aspect ratio */
+    float: right;
+}
+/*Styling footer*/
+footer {
+    color: #0b0b0b; /* Set text color */
+    width: 100%;
+    bottom: 0;
+}
+
+#social-media-icons {
+    display: flex; /* Display icons horizontally */
+    align-items: center; /* Align icons vertically */
+}
+
+#social-media-icons a {
+    margin-right: 10px; /* Add spacing between icons */
+}
+
+#social-media-icons img {
+    margin-left: auto; /* Push the WhatsApp icon to the far right */
+}
+/*Contact form styling*/
+#contact {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align:left;
+}
+#social-media-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover {
+    background-color: #066423; /* Darken background color on hover */
+}
+
+
 
 /* Media Query for responsiveness */
 @media screen and (max-width: 768px) {
@@ -80,5 +247,27 @@ nav a:hover {
     .service {
         flex: 1 1 100%; /* Set item width to 100% for smaller screens */
         max-width: 100%; /* Set maximum width to 100% */
+    }
+}
+
+
+/* Style for About Us */
+#aboutHospital {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Display two columns */
+    grid-gap: 20px; /* Add some gap between sections */
+}
+
+.section {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+/* Adjust styles for smaller screens */
+@media (max-width: 768px) {
+    #aboutHospital {
+        grid-template-columns: 1fr; /* Display one column for smaller screens */
     }
 }
