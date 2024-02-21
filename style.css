@@ -200,6 +200,10 @@ button {
     height: auto; /* Maintain aspect ratio */
     float: right;
 }
+/*#appointments{
+    background-image: image-set(url('assets/background.png')) ;
+    color: rgb(4, 4, 4);
+}*/
 /*Styling footer*/
 footer {
     color: #0b0b0b; /* Set text color */
@@ -289,7 +293,10 @@ footer {
     max-width: 100%; /* Ensure image fits inside the container */
     margin-bottom: 10px; /* Add some space below the image */
 }
-
+.lab2 img {
+    max-width: 50%; /* Ensure image fits inside the container */
+    margin-bottom: 50%; /* Add some space below the image */
+}
 
 button:hover {
     background-color: #066423; /* Darken background color on hover */

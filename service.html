@@ -15,7 +15,7 @@
      <!--Your header content goes here -->
     <nav>
         <ul>
-            <li><a href="home.html">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="service.html">Services</a></li>
             <li><a href="contact.html">Contact</a></li>
@@ -25,11 +25,13 @@
     <div id="more-services">
         <h2>Outpatient Services</h2>
         <ul>
-            <li>
+            <li class="lab">
+                <img src="./assets/consult.jpg" alt="consultant">
                 <h3>Consultant Service</h3>
                 <p>Our hospital offers expert consultant services across various medical specialties, ensuring personalized care and treatment plans tailored to each patient's needs.</p>
             </li>
-            <li>
+            <li class="lab">
+                <img src="./assets/med.jpg" alt="med">
                 <h3>Outpatient Service</h3>
                 <p>Patients can access medical care without being admitted to the hospital, benefiting from a range of diagnostic, therapeutic, and preventive services on an outpatient basis.</p>
             </li>
@@ -43,11 +45,13 @@
                 <h3>Telemedicine</h3>
                 <p>We offer remote medical consultations and follow-ups via telemedicine, enabling patients to connect with healthcare providers conveniently from their homes or other locations.</p>
             </li>
-            <li>
+            <li class="lab">
+                <img src="./assets/bones.jpg" alt="orthopedic">
                 <h3>Orthopedic services</h3>
                 <p>Our orthopedic department specializes in the diagnosis, treatment, and rehabilitation of musculoskeletal conditions, including fractures, joint disorders, and sports injuries.</p>
             </li>
-            <li>
+            <li class="lab">
+                <img src="./assets/physiotherapy.png" alt="physiotherapy">
                 <h3>Physiotherapy</h3>
                 <p>Physiotherapy, also known as physical therapy, is a healthcare profession focused on helping individuals regain and maintain movement and function. It is a holistic approach that addresses a wide range of conditions affecting the musculoskeletal, neurological, and cardiopulmonary systems</p>
             </li>
@@ -55,35 +59,59 @@
                 <h3>ENT(Ear, Nose, and Throat) Specialist</h3>
                 <p>Our experienced ENT specialists provide comprehensive care for conditions affecting the ear, nose, throat, head, and neck, ranging from common ailments to complex surgical interventions.</p>
             </li>
-            <li>
+            <li class="lab">
+                <img src="./assets/ultrasound.png" alt="Ultrasound">
                 <h3>Ultrasound</h3>
                 <p>We offer ultrasound imaging services to aid in the diagnosis and monitoring of various medical conditions, providing non-invasive and real-time imaging for accurate assessment.</p>
             </li>
-            <li>
+            <li class="lab">
+                <img src="./assets/vct.png" alt="vct">
                 <h3>V.C.T (Voluntary Counseling and Testing)</h3>
                 <p>Our hospital provides confidential counseling and testing services for HIV/AIDS and other sexually transmitted infections, empowering individuals to make informed decisions about their health.</p>
             </li>
-            <li>
+            <li class="lab">
+                <img src="./assets/familyPlan.png" alt="family planning">
                 <h3>Family planning</h3>
                 <p>We offer comprehensive family planning services, including counseling, contraceptive options, and reproductive health education, to support individuals and couples in making informed choices about their family size and spacing.</p>            </li>
-            <li>
+            <li class="lab">
+                <img src="./assets/Antenatal.png" alt="Antenatal/Postnatal">
                 <h3>Antenatal/Postnatal</h3>
-                <p>Our experienced ENT specialists provide comprehensive care for conditions affecting the ear, nose, throat, head, and neck, ranging from common ailments to complex surgical interventions.</p>
+                <p>Our dedicated maternal health services provide prenatal care, childbirth support, and postnatal care to ensure the health and well-being of both mother and baby throughout the pregnancy and after delivery.</p>
             </li>
-            <li>
+            <li class="lab">
+                <img src="./assets/immune.jpg" alt="immunization">
                 <h3>Immunization</h3>
                 <p>We offer a full range of immunizations for children and adults, following national guidelines to protect against preventable diseases and promote community health.</p>
             </li>
-            <li>
+            <li class="lab">
+                <img src="./assets/home care.png" alt="Home Based care">
                 <h3>Home Based Care</h3>
                 <p>For patients who require medical care at home, our hospital offers home-based care services, including skilled nursing, rehabilitation, and palliative care, delivered by trained healthcare professionals in the comfort of the patient's own environment.</p>
             </li>
-            <li>
+            <li class="lab">
+                <img  src="./assets/Surgery1.png" alt="surgeries">
                 <h3>Minor surgeries</h3>
                 <p>Our facility is equipped to perform minor surgical procedures in a safe and sterile environment, ensuring optimal outcomes for patients requiring surgical intervention for various medical conditions</p>
             </li>
         </ul>
     </div>
+     <!--   script to add and remove news   
+        <script>
+            function addNews() {
+                var newsList = document.getElementById("newsList");
+                var newNews = document.createElement("li");
+                newNews.textContent = "New News";
+                newsList.appendChild(newNews);
+            }
+
+            function removeNews() {
+                var newsList = document.getElementById("newsList");
+                var lastNews = newsList.lastElementChild;
+                if (lastNews) {
+                    newsList.removeChild(lastNews);
+                }
+            }
+        </script>-->
     
 
 </body>
