@@ -195,7 +195,7 @@ button {
     grid-column: 2 / 3; /* Span input/select across the second column */
     width: 100%; /* Make inputs/selects fill the column */
 }
-img {
+.app{
     max-width: 8%; /* Ensure images don't exceed their container width */
     height: auto; /* Maintain aspect ratio */
     float: right;
@@ -231,6 +231,65 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
+/*service styling*/
+#more-services {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#more-services h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#more-services ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+#more-services li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+#more-services li:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+#more-services li p {
+    margin-top: 10px;
+    color: #666;
+}
+
+#more-services li h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+/*Specific styling of services*/
+/*Lab*/
+.lab .service-content {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center; /* Center align content */
+}
+/*lab image resizing*/
+.lab img {
+    max-width: 100%; /* Ensure image fits inside the container */
+    margin-bottom: 10px; /* Add some space below the image */
+}
+
 
 button:hover {
     background-color: #066423; /* Darken background color on hover */
