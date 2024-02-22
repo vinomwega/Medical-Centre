@@ -5,7 +5,7 @@ body {
 }
 
 .NPX {
-    background-color: #066423; /* Set background color */
+    background-color: #043a1e; /* Set background color */
     width: 100%; /* Ensure the header covers the entire width of the screen */
     position: sticky; /* Fix the header at the top of the viewport until a certain point */
     top: 0; /* Align the header to the top of the viewport */
@@ -33,7 +33,7 @@ nav li:last-child {
 
 nav a {
     text-decoration: none;
-    color: #333; /* Change link color as needed */
+    color: #ffffff; /* Change link color as needed */
     padding: 5px 10px;
     display: block; /* Ensure links take up entire space of their parent li */
     transition: background-color 0.3s; /* Add a smooth transition effect */
