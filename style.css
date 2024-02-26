@@ -45,7 +45,21 @@ nav a:hover {
 
 
 .Services{
+    position: relative; /* Set position to relative */
+    background-image: image-set(url('assets/muthure.jpg')) ;
+    opacity:1; /* Set background image opacity */
+    background-size: cover; /* Cover the entire background */
+    background-position:center; /* Center the background image */
+    color: #B7C9E2; /* Set text color to white */
+    font-size: large;
+    font-style: oblique;
+    font-weight: bolder;
+    padding: 50px 0; /* Add padding to the top and bottom of the Services section */
     padding-top: auto; /* Add padding to the top of the Services section to prevent overlap with the header */
+}
+
+#fam{
+    color:  blue; /* Set text color to white */
 }
 
 .Serve {
