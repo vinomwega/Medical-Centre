@@ -3,9 +3,11 @@ body {
     padding: 0; /* Remove default padding */
     background-color: #ECF5D5;
 }
-
+#dft{
+    height: 50%;
+}
 .NPX {
-    background-color: white;
+    background-color: #70980b;
     /*background-color: #043a1e;  Set background color */
     width: 100%; /* Ensure the header covers the entire width of the screen */
     position: sticky; /* Fix the header at the top of the viewport until a certain point */
@@ -34,24 +36,24 @@ nav li:last-child {
 
 nav a {
     text-decoration: none;
-    color: #043a1e; /* Change link color as needed */
+    color: #fcfdfc; /* Change link color as needed */
     padding: 5px 10px;
     display: block; /* Ensure links take up entire space of their parent li */
     transition: background-color 0.3s; /* Add a smooth transition effect */
 }
 
 nav a:hover {
-    background-color: #A1DD06; /* Change background color on hover */
+    background-color:  #043a1e; /* Change background color on hover */
 }
 
 
 .Services{
     position: relative; /* Set position to relative */
-    background-image: image-set(url('assets/team.jpeg')) ;
+    background-image: image-set(url('assets/med.jpg')) ;
     opacity:1; /* Set background image opacity */
     background-size: cover;  /*Cover the entire background */
     background-position:center;  /*Center the background image */
-    color: whitesmoke; /* Set text color to white */
+    color: 100C08; /* Set text color to white */
     font-size: large;
     font-style: oblique;
     font-weight: bolder;
@@ -222,7 +224,7 @@ button {
 }*/
 /*Styling footer*/
 footer {
-    color: #0b0b0b; /* Set text color */
+    background-color: #70980b; /* Set text color */
     width: 100%;
     bottom: 0;
 }
@@ -251,7 +253,9 @@ footer {
     justify-content: center;
     align-items: center;
 }
-
+footer{
+    background-color: #70980b;
+}
 /*service styling*/
 #more-services {
     max-width: 1200px;
