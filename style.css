@@ -263,7 +263,15 @@ footer {
     margin-left: auto; /* Push the WhatsApp icon to the far right */
 }
 /*Contact form styling*/
-#contact {
+.cont{
+    max-width: 50%; /* Set maximum width of the form */
+    max-height: 50%; /* Set maximum height of the form */
+}
+./*Hospt{
+   max-width: 10%;
+    max-height: 10%;
+}*/
+.contact1 {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -274,6 +282,16 @@ footer {
     justify-content: center;
     align-items: center;
 }
+#social-media-icons_arrange_vertically_for_all_social-media-icons,a{
+    social-media-icons_arrange_vertically_for_all_social-media-icons {
+        margin-left: 5cm; /* Move icons 5 cm to the right */
+    }
+        display: flex; /* Display icons horizontally */
+        align-items: center; /* Align icons vertically */
+        margin-left: 5cm; /* Move icons 5 cm to the right */
+    }
+
+   
 footer{
     background-color: #70980b;
 }
