@@ -5,8 +5,8 @@ body {
 }
 #dft{
     height: 50%;
-    max-width: 50%; /* Set the maximum width of the image to 100% */
-    max-height: 50%; /* Set the maximum height of the image to 100% */
+    max-width: 100%; /* Set the maximum width of the image to 100% */
+    max-height: 100%; /* Set the maximum height of the image to 100% */
 }
 .NPX {
     background-color: #70980b;
@@ -63,9 +63,9 @@ nav a:hover {
     padding-top: auto; /* Add padding to the top of the Services section to prevent overlap with the header */
 }
 
-#fam{
-    color:  blue; /* Set text color to white */
-}
+/* #fam{
+    color:  blue; /* Set text color to white 
+}*/
 
 .Serve {
     list-style-type: none;
@@ -108,7 +108,7 @@ nav a:hover {
 }
 
 #why {
-    background-color: #f0f0f0; /* Background color */
+    /*background-color: #f0f0f0;  Background color */
     padding: 20px; /* Add padding */
     border-radius: 10px; /* Add rounded corners */
 }
@@ -142,11 +142,12 @@ nav a:hover {
 button {
     background-color: #A1DD06; /* Button background color */
     color: #fff; /* Button text color */
-    padding: 10px 20px; /* Add padding */
+    padding: 5px 10px; /* Add padding */
     border: none; /* Remove border */
     border-radius: 5px; /* Add rounded corners */
     cursor: pointer; /* Add pointer cursor */
     text-decoration: none; /* Remove default underline */
+    
 }
 /*Styling Open hrs*/
 #openHrs {
@@ -267,29 +268,26 @@ footer {
     max-width: 50%; /* Set maximum width of the form */
     max-height: 50%; /* Set maximum height of the form */
 }
-./*Hospt{
-   max-width: 10%;
-    max-height: 10%;
-}*/
 .contact1 {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align:left;
 }
+   
 #social-media-icons{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-#social-media-icons_arrange_vertically_for_all_social-media-icons,a{
-    social-media-icons_arrange_vertically_for_all_social-media-icons {
-        margin-left: 5cm; /* Move icons 5 cm to the right */
-    }
-        display: flex; /* Display icons horizontally */
-        align-items: center; /* Align icons vertically */
-        margin-left: 5cm; /* Move icons 5 cm to the right */
-    }
+#social-media-icons_arrange_vertically_for_all_social-media-icons,a
+    /*social-media-icons_arrange_vertically_for_all_social-media-icons {
+        margin-left: 5cm;  Move icons 5 cm to the right 
+    }*/
+        /*display: flex;  Display icons horizontally */
+        /*align-items: center;  Align icons vertically */
+        /*margin-left: 5cm;  Move icons 5 cm to the right 
+    }*/
 
    
 footer{
